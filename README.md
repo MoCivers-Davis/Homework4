@@ -1,7 +1,6 @@
 # Homework4 - Web APIs: Current Events Code Quiz
 
-![Quiz App] (Homework4/Homework4.png)
-
+![Quz App](screenshots/Homework4.png)
 
 ## Why
 Statistics show that students in grades 9-12 are less informed about current world events than students from 20 years ago. This translate to students being ill prepared and having difficulty intermingling with the greater society.  This quiz on current events is used a as tool to guage at a high level how much students know about local and national current events.
