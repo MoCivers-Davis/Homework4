@@ -59,10 +59,16 @@ function selectAnswer(e) {
     } else {
         startButton.innerText = "Restart"
         startButton.classList.remove("hide")
+        startButton.addEventListener("click", gameEnd)
+        alert ("Your score is:")
+        
+        //alert user of the score
 
     }
 }
+function gameEnd() {
 
+}
 function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
@@ -121,11 +127,10 @@ const questions = [ //The Array of Questions and Answers for the Quiz game
     //var answer = confirm(questions[i].question);
 
     // Compare answers
-    //if ((answer === true && questions[i].answers === true) ||
-       // (answer === false && questions[i].answers === false)) {
+    if ((answer === true && questions[i].answers === true) ||
+        (answer === false && questions[i].answers === false)) {
          //Increase score
-        //score++
-    //}
+        score++
+    }
 //}
-
 
