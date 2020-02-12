@@ -1,6 +1,6 @@
 # Homework4 - Web APIs: Current Events Code Quiz
 
-[Quiz App] (Homework4/Homework4.png)
+![Quiz App] (Homework4/Homework4.png)
 
 
 ## Why
