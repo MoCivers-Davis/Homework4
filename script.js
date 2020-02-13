@@ -127,10 +127,11 @@ const questions = [ //The Array of Questions and Answers for the Quiz game
     //var answer = confirm(questions[i].question);
 
     // Compare answers
-    if ((answer === true && questions[i].answers === true) ||
-        (answer === false && questions[i].answers === false)) {
+    //if ((answer === true && questions[i].answers === true) ||
+       // (answer === false && questions[i].answers === false)) {
          //Increase score
-        score++
-    }
+        //score++
+    //}
 //}
+
 
